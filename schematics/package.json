@@ -1,0 +1,13 @@
+{
+  "name": "schematics",
+  "version": "1.0.0",
+  "description": "Custom schematics for generating elements.",
+  "main": "index.js",
+  "keywords": [
+    "angular",
+    "schematics",
+    "custom"
+  ],
+  "author": "Bogdan <admin@bbogdanov.net>",
+  "license": "MIT"
+}
