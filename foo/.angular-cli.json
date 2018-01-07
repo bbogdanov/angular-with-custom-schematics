@@ -55,20 +55,6 @@
   },
   "defaults": {
     "styleExt": "css",
-    "component": {},
-    "schematics": {
-      "properties": {
-        "collection": {
-          "description": "The schematics collection to use.",
-          "type": "string",
-          "default": "@schematics/angular"
-        },
-        "custom": {
-          "description": "The custom schematics.",
-          "type": "string",
-          "default": "@schematics/custom"
-        }
-      }
-    }
+    "component": {}
   }
 }
