@@ -1,0 +1,31 @@
+{
+  "name": "angular-custom-schematics",
+  "version": "1.0.0",
+  "description": "Playing around with angular schematics.",
+  "scripts": {
+    "ifoo"       : "cd ./foo        && npm i",
+    "ischematics": "cd ./schematics && npm i",
+    "iboth"      : "npm run ischematics && npm run ifoo",
+
+    "rfoo"       :"rm -rf        ./foo/node_modules && rm        ./foo/package-lock.json", 
+    "rschematics":"rm -rf ./schematics/node_modules && rm ./schematics/package-lock.json",
+    "rboth"      : "npm run rfoo && npm run rschematics",
+
+    "rni": "npm run rboth && npm run iboth"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbogdanov/angular-with-custom-schematics.git"
+  },
+  "keywords": [
+    "schematics",
+    "custom",
+    "angular-devkit"
+  ],
+  "author": "Bogdan Bogdanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbogdanov/angular-with-custom-schematics/issues"
+  },
+  "homepage": "https://github.com/bbogdanov/angular-with-custom-schematics#readme"
+}

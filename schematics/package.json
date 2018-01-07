@@ -1,13 +1,20 @@
 {
-  "name": "schematics",
+  "name": "@schematics/custom",
+  "license": "MIT",
   "version": "1.0.0",
   "description": "Custom schematics for generating elements.",
-  "main": "index.js",
   "keywords": [
     "angular",
     "schematics",
-    "custom"
+    "custom",
+    "blueprints",
+    "code generation"
   ],
   "author": "Bogdan <admin@bbogdanov.net>",
-  "license": "MIT"
+  "schematics": "./collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "0.0.22",
+    "rxjs": "^5.5.6",
+    "@angular-devkit/schematics": "0.0.42"
+  }
 }
