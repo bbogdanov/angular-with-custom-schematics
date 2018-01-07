@@ -17,7 +17,14 @@
   dependencies:
     source-map "^0.5.6"
 
-"@angular-devkit/schematics@~0.0.42":
+"@angular-devkit/core@0.0.23":
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-0.0.23.tgz#47cddcefb3dc3dae7e01539057a0a6cd6597a076"
+  dependencies:
+    chokidar "^1.7.0"
+    source-map "^0.5.6"
+
+"@angular-devkit/schematics@0.0.42", "@angular-devkit/schematics@~0.0.42":
   version "0.0.42"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-0.0.42.tgz#34eea7136455545c8abd21edf94a36870a073fea"
   dependencies:
@@ -179,6 +186,12 @@
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-0.1.11.tgz#b5f15320bbb60969d66c76a8ef6545058ac81ece"
   dependencies:
     "@angular-devkit/core" "0.0.22"
+
+"@schematics/custom@file:../schematics":
+  version "1.0.0"
+  dependencies:
+    "@angular-devkit/core" "0.0.23"
+    "@angular-devkit/schematics" "0.0.42"
 
 "@schematics/schematics@0.0.11":
   version "0.0.11"
@@ -4924,6 +4937,12 @@ schema-utils@^0.4.2:
   dependencies:
     ajv "^5.0.0"
     ajv-keywords "^2.1.0"
+
+"schematics@file:../schematics":
+  version "1.0.0"
+  dependencies:
+    "@angular-devkit/core" "0.0.23"
+    "@angular-devkit/schematics" "0.0.42"
 
 scss-tokenizer@^0.2.3:
   version "0.2.3"

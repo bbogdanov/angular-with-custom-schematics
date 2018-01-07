@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "SchematicsCustomComponent",
+  "title": "Angular Component Options Schema",
+  "type": "object",
+  "properties": {
+    "path": {
+      "type": "string",
+      "description": "The path to create the component.",
+      "default": "app",
+      "visible": false
+    },
+    "name": {
+      "type": "string",
+      "description": "The name of the component."
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

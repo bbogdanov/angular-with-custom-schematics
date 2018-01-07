@@ -1,0 +1,10 @@
+{
+    "schematics": {
+        "component": {
+            "aliases": [ "c" ],
+            "factory": "./component",
+            "schema": "./component/schema.json",
+            "description": "Create a angular component with some redux necessary files."
+        }
+    }
+}
