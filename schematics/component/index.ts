@@ -1,4 +1,5 @@
 import { normalize } from '@angular-devkit/core';
+
 import {
   Rule,
   SchematicContext,

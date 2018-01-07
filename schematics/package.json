@@ -8,15 +8,13 @@
     "schematics",
     "custom",
     "blueprints",
-    "code generation",
-    "schematics"
+    "code generation"
   ],
   "author": "Bogdan <admin@bbogdanov.net>",
   "schematics": "./collection.json",
   "dependencies": {
-    "@angular-devkit/core": "0.0.0"
-  },
-  "peerDependencies": {
-    "@angular-devkit/schematics": "0.0.0"
+    "@angular-devkit/core": "0.0.22",
+    "rxjs": "^5.5.6",
+    "@angular-devkit/schematics": "0.0.42"
   }
 }
