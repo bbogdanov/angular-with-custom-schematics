@@ -23,7 +23,7 @@
     "angular-devkit"
   ],
   "author": "Bogdan Bogdanov",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bbogdanov/angular-with-custom-schematics/issues"
   },
