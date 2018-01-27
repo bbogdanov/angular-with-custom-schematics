@@ -1,6 +1,6 @@
-# Custom schematics library for Angular CLI
+# Custom schematics package for Angular CLI
 
-Example how to build a custom schematics library for Angular CLI.
+Example how to build a custom schematics package for Angular CLI.
 
 [![License](https://img.shields.io/npm/l/@angular-devkit/core.svg)](https://github.com/angular/devkit/blob/master/LICENSE) 
 
